@@ -1,0 +1,50 @@
+.App {
+  font-family: Cambria;
+}
+
+body {
+   background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+ul li button {
+  text-decoration: none;
+  background-color: #2d54c6;
+  color: #d90f0f;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-style: none;
+}
+
+ul li button:hover {
+  background-color: red;
+  color: #fff;
+}
+
+ul li a {
+  text-decoration: none;
+  /* background-color: #2d54c6; */
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  /* border-style: none; */
+}
+
+ul li a:hover {
+  background-color: red;
+  color: #fff;
+}
+
+ul li .active {
+  background-color: red;
+  color: #fff;
+}
+
+h4 {
+  font-weight: bolder;
+  font-size: 10%;
+}
